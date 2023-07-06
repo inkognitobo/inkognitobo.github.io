@@ -29,17 +29,6 @@
 
 }
 
-.about__terminal__commandline__prompt {}
-
-.about__terminal__commandline__prompt__hostname {}
-
-.about__terminal__commandline__prompt__pwd {}
-
-.about__terminal__commandline__prompt__separator {}
-
-.about__terminal__commandline__command {
-}
-
 .about__terminal__output {
   display: flex;
   flex-direction: column;
@@ -49,8 +38,6 @@
 .about__terminal__output__symlink {
   color: var(--blue-macchiato);
 }
-
-.about__terminal__output__symlinked {}
 
 /* xs */
 /* @media (min-width: 475px) {} */
