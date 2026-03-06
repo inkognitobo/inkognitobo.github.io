@@ -20,30 +20,27 @@
     -->
 
     <main>
-      <!--
-      <section class="hero container"></section>
-      -->
-
       <section class="about container">
         <div class="about__terminal">
 
+          <!-- whoami -->
           <div class="about__terminal__commandline">
             <div class="about__terminal__commandline__prompt">
               <span class="about__terminal__commandline__prompt__hostname"><strong>tobias@inkognitobo</strong></span>
               <span class="about__terminal__commandline__prompt__pwd"><strong>~</strong></span>
               <span class="about__terminal__commandline__prompt__separator"><strong>$</strong></span>
             </div>
+
             <div class="cursor-animation animation--first">
               <div class="typing-animation animation--first">
-                <span class="about__terminal__commandline__command">
-                  whoami
-                </span>
+                <span class="about__terminal__commandline__command">whoami</span>
               </div>
             </div>
           </div>
+
           <div class="about__terminal__output popup-animation animation--second">
             <p class="about__terminal__output__aboutme">
-            I'm Tobias, a 27-year old graduate student pursuing a 
+            I'm Tobias, a 28-year old graduate student pursuing a 
             Master's degree in Computer Science
             and currently working as a researcher at Thales Germany. <br />
             <br />
@@ -54,6 +51,7 @@
             </p>
           </div>
 
+          <!-- ls -la -->
           <div class="popup-animation animation--second">
             <div class="about__terminal__commandline">
               <div class="about__terminal__commandline__prompt">
@@ -61,31 +59,49 @@
                 <span class="about__terminal__commandline__prompt__pwd"><strong>~</strong></span>
                 <span class="about__terminal__commandline__prompt__separator"><strong>$</strong></span>
               </div>
+
               <div class="cursor-animation animation--third">
                 <div class="typing-animation animation--third">
-                  <span class="about__terminal__commandline__command">
-                    ls -al
-                  </span>
+                  <span class="about__terminal__commandline__command">ls -la</span>
                 </div>
               </div>
             </div>
           </div>
+
           <div class="about__terminal__output popup-animation animation--fourth">
             <span class="about__terminal__output__symlink">
               github -> 
-              <a href="https://github.com/inkognitobo" target="_blank" class="about__terminal__output__symlinked">github.com/inkognitobo</a>
+              <a href="https://github.com/inkognitobo" target="_blank" class="about__terminal__output__symlinked">
+                  github.com/inkognitobo
+              </a>
             </span>
             <span class="about__terminal__output__symlink">
               linkedin -> 
-              <a href="https://www.linkedin.com/in/tobias-hürten/" target="_blank" class="about__terminal__output__symlinked">linkedin.com/tobias</a>
+              <a href="https://www.linkedin.com/in/tobias-hürten/" target="_blank" class="about__terminal__output__symlinked">
+                  linkedin.com/tobias
+              </a>
             </span>
             <span class="about__terminal__output__symlink">
               orcid -> 
-              <a href="https://orcid.org/0009-0005-2121-0810" target="_blank" class="about__terminal__output__symlinked">orcid.org/0009-0005-2121-0810</a>
+              <a href="https://orcid.org/0009-0005-2121-0810" target="_blank" class="about__terminal__output__symlinked">
+                  orcid.org/0009-0005-2121-0810
+              </a>
             </span>
-            <span class="about__terminal__output__file">publications.md</span>
+            <span class="about__terminal__output__symlink">
+              researchgate -> 
+              <a href="https://www.researchgate.net/profile/Tobias-Huerten" target="_blank" class="about__terminal__output__symlinked">
+                  researchgate.net/tobias-huerten
+              </a>
+            </span>
+            <span class="about__terminal__output__symlink">
+              scholar -> 
+              <a href="https://scholar.google.com/citations?user=HK4ZIWwAAAAJ" target="_blank" class="about__terminal__output__symlinked">
+                  scholar.google.com/tobias-huerten
+              </a>
+            </span>
           </div>
           
+          <!-- last line -->
           <div class="popup-animation animation--fourth">
             <div class="about__terminal__commandline">
               <div class="about__terminal__commandline__prompt">
@@ -93,43 +109,10 @@
                 <span class="about__terminal__commandline__prompt__pwd"><strong>~</strong></span>
                 <span class="about__terminal__commandline__prompt__separator"><strong>$</strong></span>
               </div>
-              <div class="cursor-animation cursor-animation--blink5 animation--fifth">
-                <div class="typing-animation typing-animation--19chars animation--fifth">
-                  <span class="about__terminal__commandline__command">
-                    cat publications.md
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="about__terminal__output popup-animation animation--sixth">
-            <p class="about__terminal__output__publications">
-              # Publications <br />
-              <br />
-              ## Adversarial Attacks Against Reinforcement Learning Based Tactical Networks: A Case Study <br />
-              <span>&ensp;- Year: 2022</span> <br />
-              <span>&ensp;- DOI: <a href="https://doi.org/10.1109/MILCOM55135.2022.10017788" target="_blank">10.1109/MILCOM55135.2022.10017788</a></span> <br />
-              <span>&ensp;- Publisher: IEEE</span> <br />
-              <br />
-              ## Cooperative Agent System for Quantifying Link Robustness in Tactical Networks <br />
-              <span>&ensp;- Year: 2023</span> <br />
-              <span>&ensp;- DOI: <a href="https://doi.org/10.1109/MILCOM58377.2023.10356301" target="_blank">10.1109/MILCOM58377.2023.10356301</a></span> <br />
-              <span>&ensp;- Publisher: IEEE</span> <br />
-            </p>
-          </div>
-          
-          <div class="popup-animation animation--sixth">
-            <div class="about__terminal__commandline">
-              <div class="about__terminal__commandline__prompt">
-                <span class="about__terminal__commandline__prompt__hostname"><strong>tobias@inkognitobo</strong></span>
-                <span class="about__terminal__commandline__prompt__pwd"><strong>~</strong></span>
-                <span class="about__terminal__commandline__prompt__separator"><strong>$</strong></span>
-              </div>
+
               <div class="cursor-animation cursor-animation--blinkinf animation--fifth">
                 <div class="typing-animation typing-animation--19chars animation--fifth">
-                  <span class="about__terminal__commandline__command">
-
-                  </span>
+                  <span class="about__terminal__commandline__command"></span>
                 </div>
               </div>
             </div>

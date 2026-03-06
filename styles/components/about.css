@@ -3,7 +3,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 2rem;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
 }
 
 .about__terminal {
@@ -13,7 +14,8 @@
   align-items: flex-start;
   padding: 1rem;
   
-  min-height: 80vh;
+  /* min-height: 80vh; */
+  min-height: 85vh;
 
   font-size: var(--size-base);
   background-color: var(--surface0-macchiato);
@@ -26,7 +28,6 @@
   display: flex;
   flex-direction: row;
   gap: 0.5rem;
-
 }
 
 .about__terminal__output {
@@ -45,7 +46,7 @@
 /* sm */
 @media (min-width: 640px) {
   .about__terminal {
-    font-size: var(--size-lg);
+    font-size: var(--size-xl);
   }
 }
 
@@ -55,7 +56,7 @@
 /* lg */
 @media (min-width: 1024px) {
   .about__terminal {
-    font-size: var(--size-xl);
+    font-size: var(--size-2xl);
     gap: 1rem;
   }
 
@@ -67,7 +68,7 @@
 /* xl */
 @media (min-width: 1280px) {
   .about__terminal {
-    font-size: var(--size-2xl);
+    font-size: var(--size-3xl);
     gap: 1rem;
   }
 }
